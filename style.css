@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    color: red;
+    text-align: center;
+
+}
+#inique{
+    color: blueviolet;
+}
+.child{
+    text-align: center;
+    color: green !important;
+}
+p{
+    color: red;
+}
+.photo{
+    width: 300px;
+    margin: auto;
+    display: block;
+    transition: 0.3s;
+}
+.photo:hover{
+    /* bijir bijir */
+    filter: blur(5px);
+    /* yorug'lik */
+    filter: brightness(150%);
+    /* tiniqlik */
+    filter: contrast(120%);
+    /* qora 90-yillik */
+    filter: grayscale(100%);
+    /* rang-barang Marvel Hero's colors */
+    filter: hue-rotate(60deg);
+    /* rengent */
+    filter: invert(100%);
+    /* qizilni kuchaytirib beradi */
+    filter: saturate(150%);
+    /* qaymoq rangga moyil   */
+    filter: sepia(100%);
+}
+.container{
+    width: 80%;
+    border: 1px solid red;
+    margin: auto;
+    height: 500px;
+}
+.container p{
+    border: 1px solid red;
+    display: inline;
+    
+}
+.container span{
+    display: block;
+    border: 1px solid black;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    display: inline-block;
+    padding: 10px;
+}
